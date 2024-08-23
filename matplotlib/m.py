@@ -1,2 +1,8 @@
-import matplotlib as mt
 import pandas as pd
+
+# Example dataset URL from GitHub
+# url = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/nba-elo/nbaallelo.csv'
+data = pd.read_csv('matplotlib.csv')
+
+# Display the first few rows
+print(data)
